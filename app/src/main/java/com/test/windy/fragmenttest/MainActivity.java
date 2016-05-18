@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
                 FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
                 //第一个参数是容器ID，第二个参数是Fragment对象。
                 fragmentTransaction.replace(R.id.rightLayout,another);
+                //模拟返回栈，Fragment 的返回栈
+                fragmentTransaction.addToBackStack(null);
                 fragmentTransaction.commit();
             }
         });

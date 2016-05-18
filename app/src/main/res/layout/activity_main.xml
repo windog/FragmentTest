@@ -24,19 +24,17 @@
     <FrameLayout
         android:id="@+id/rightLayout"
         android:layout_width="0dp"
-        android:layout_weight="1"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_weight="1">
 
         <fragment
             android:id="@+id/rightFragment"
             android:name="com.test.windy.fragmenttest.RightFragment"
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
             tools:layout="@layout/right_fragment" />
 
     </FrameLayout>
-
 
 
 </LinearLayout>
