@@ -14,7 +14,8 @@ import android.view.ViewGroup;
  */
 public class RightFragment extends Fragment {
 
-    public static final String TAG = "RightFragment";
+    //快捷键 logt
+    private static final String TAG = "RightFragment";
 
     @Override
     public void onAttach(Context context) {
